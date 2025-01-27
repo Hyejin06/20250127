@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/*header*/
+header {width:1765px; height:210px; margin:0 auto; border-bottom: 2px solid #eee;}
+#interest {width:160px; height:30px; float:left; margin:20px 30px 0 0px;}
+#interest > ul > li > a {font-size:11px; color:#666; float:left; margin:7px 5px;}
+
+/*로그인*/
+#login {width:310px; height:30px; float:right; margin:20px 0;}
+#login > ul {font-size:11px; color:#666;}
+#login > ul> li {float:left; margin:7px 4px;}
+
+/*로고*/
+#logo {width: 210px; height: 60px; float: left; margin: 65px 0 0 585px;}
+#logo > img {width:100%; height:100%;}
+
+/*네비*/
+.menu {width: 1270px; height: 50px; float:left; margin: 20px 0 0 330px; line-height: 40px;}
+
+.menu > li {float: left; margin: 15px 25px 0 20px; text-align: center; color: #000; height: 50px;  font-size:14px;}
+.menu > li > a {background-color: #fff; text-transform: uppercase; display: block; height: 50px; width: 100%; color: #000; font-size:14px;}
+.menu > li > a:hover {border-bottom: 1px solid #666;}
+
+.sub {background-color: #fff; display: none; color: #333; border-left: 1px solid #eee; border-right: 1px solid #eee; border-top: 1px solid #eee; border-bottom: 1px solid #eee; z-index: 3; position: relative;}
+.sub > li {height: 50px;}
+.sub > li > a {display: block; color: #333;}
+.sub > li > a:hover {background-color: #eee; color: #333;}
+
+/*아이콘*/
+#icon {width:150px; height:40px; float:right; margin:30px 0 0 0;}
+#icon > .iconbox > img {width:30px; height:30px; float:left; margin:0 10px 0;}
+
+/*footer*/
+footer {width:100%; height:590px; margin:0 auto; background-color:#eee;}
+
+/*footer 박스*/
+#fbox {width:1765px; height: 360px; float:left; margin:90px 70px 0;}
+
+/*footer 로고*/
+#fibox {width:800px; height:320px; float:left; margin:10px 0 0 0;}
+#fibox > img {width:175px; height:40px; float:left; margin:0 0 0 10px;}
+
+/*회사소개*/
+#fibox > ul {width:800px; height:55px; float:left; margin: 45px 0 0 0;}
+#fibox > ul {font-size:13px; color:#000; text-align:center;}
+#fibox > ul > li {float:left; margin:0 8px 0;}
+
+/*쇼핑몰 기본정보*/
+#fibox > h3 {width: 100%; float: left; font-size:13px; color:#000; line-height:25px; margin:0 0 15px 8px;}
+#fibox > p {width: 100%; float: left; font-size:11px; color:#000; line-height:23px; margin:0 8px 0;}
+
+/*고객 센터 정보*/
+#fpabox {width:180px; height:100px; float:right; margin:100px 10px 0 0;}
+#fpabox > h3 {font-size:13px; color:#000; line-height:25px; margin:0 0 15px 0;}
+#fpabox > p {font-size:12px; color:#000; line-height:25px; margin:0;}
+
+/*결제 정보*/
+#fpbox {width:200px; height:200px; float:right; margin:100px 80px 0 0;}
+#fpbox > h3 {font-size:13px; color:#000; line-height:25px; margin:0 0 15px 0;}
+#fpbox > p {font-size:12px; color:#000; line-height:25px; margin:0;}
+
+/*저작권*/
+#copybox {width:1765px; height:140px; float:left; border-top:1px solid #666; margin:0 70px 0;}
+#copybox > p {float:left; width:400px; height:120px; display:flex; flex-wrap:wrap; align-content:center; font-size:12px; margin: 0 5px; color: #666;}
+
+/*sns*/
+#copybox > ul {width:390px; height:40px; float:right; margin:25px 0 0 0;}
+#copybox > ul > li {font-size:14px; color:#000; line-height:25px; margin:0; float: left;}
+#copybox > ul > li > img {width:28px; height:28px; float:left; margin:0 15px 0;}

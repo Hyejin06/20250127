@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHAT WE SELL</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title></title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.0.min.js"></script>
+
+    <script src="js/jbest.js"></script>
+    <script src="js/jonly.js"></script>
+    <script src="js/jnew.js"></script>
+
+    <script>
+        $(function () {
+            $('.menu > li').mouseover(function () {
+                $(this).children('.sub').stop().slideDown();
+            }).mouseout(function () {
+                $('.sub').stop().slideUp();
+            }); 
+        });
+    </script>
+
+</head>
+
+<body>
+    <!--헤더-->
+    <header>
+        <div id="interest">
+            <ul>
+                <li><a href="#">관심상품 0개</a></li>
+                <li><a href="#">좋아요 0개</a></li>
+            </ul>
+        </div>
+
+        <div id="logo">
+            <img src="img/logo1.jpg" alt="logo1">
+        </div>
+
+        <div id="login">
+            <ul>
+                <li>회원가입</li>
+                <li>|</li>
+                <li>로그인</li>
+                <li>|</li>
+                <li>주문조회</li>
+                <li>|</li>
+                <li>최근본상품</li>
+                <li>|</li>
+                <li>고객센터</li>
+            </ul>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="#">전체상품</a></li>
+                <li><a href="#">BEST</a></li>
+                <li><a href="#">크리스마스 소품</a></li>
+                <li><a href="#">전통소품</a></li>
+                <li><a href="#">모형, 촬영소품</a>
+                    <ul class="sub">
+                        <li><a href="#">과일, 야채</a></li>
+                        <li><a href="#">빵, 디저트</a></li>
+                        <li><a href="#">육류, 해산물</a></li>
+                        <li><a href="#">촬영소품</a></li>
+                        <li><a href="#">장식인형</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">빈티지 엔틱 소품</a></li>
+                <li><a href="#">계절별 인테리어 소품</a>
+                    <ul class="sub">
+                        <li><a href="#">봄</a></li>
+                        <li><a href="#">여름</a></li>
+                        <li><a href="#">가을</a></li>
+                        <li><a href="#">겨울</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">정원, 테라스</a>
+                    <ul class="sub">
+                        <li><a href="#">양동이</a></li>
+                        <li><a href="#">물조리개</a></li>
+                        <li><a href="#">수납박스</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">조화, 화병</a>
+                    <ul class="sub">
+                        <li><a href="#">플라워 조화</a></li>
+                        <li><a href="#">리프 가지 조화</a></li>
+                        <li><a href="#">조화 화분 세트</a></li>
+                        <li><a href="#">화병</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="icon">
+            <div class="iconbox">
+                <img src="img/icon1.webp" alt="icon1">
+            </div>
+
+            <div class="iconbox">
+                <img src="img/icon2.webp" alt="icon2">
+            </div>
+
+            <div class="iconbox">
+                <img src="img/icon3.webp" alt="icon3">
+            </div>
+        </div>
+    </header>
+    <!--헤더 끝-->
+
+    <!--슬라이더 시작-->
+    <div id="slider">
+        <ul class="slide">
+            <li><img src="img/slider1.jpg" alt="slider1"></li>
+            <li><img src="img/slider2.jpg" alt="slider2"></li>
+            <li><img src="img/slider3.jpg" alt="slider3"></li>
+        </ul>
+
+        <h6 class="prev">&lt;</h6>
+        <h6 class="next">&gt;</h6>
+    </div>
+    <!--슬라이더 끝-->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <main>
+        <section>
+            <div id="best">
+                <h4 id="btitle"></h4>
+            </div>
+
+            <ul id="smenu">
+                <li><a href="#">베스트셀러</a></li>
+                <li><a href="#">새로운 카테고리</a></li>
+                <li><a href="#">새로운 카테고리</a></li>
+                <li><a href="#">새로운 카테고리</a></li>
+            </ul>
+
+            <article>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </article>
+
+            <div id="only">
+                <h4 id="otitle"></h4>
+            </div>
+
+            <article>
+                <div class="obox"></div>
+                <div class="obox"></div>
+                <div class="obox"></div>
+                <div class="obox"></div>
+                <div class="obox"></div>
+            </article>
+
+            <div id="new">
+                <h4 id="ntitle"></h4>
+            </div>
+
+            <article>
+                <div class="nbox"></div>
+                <div class="nbox"></div>
+                <div class="nbox"></div>
+                <div class="nbox"></div>
+                <div class="nbox"></div>
+                <div class="nbox"></div>
+                <div class="nbox"></div>
+                <div class="nbox"></div>
+            </article>
+
+            <div id="event">
+                <h3>WHAT WESELL HOT EVENT</h3>
+                <p>what wesell 에서 지금 진행중인<br>
+                    특별 이벤트를 만나보세요.</p>
+                <span>자세히 보기</span>
+            </div>
+        </section>
+    </main>
+
+    <script>
+
+        window.onload = function () {
+
+            // Best 상품
+            var btitle = document.getElementById("btitle")
+            btitle.innerHTML = "BEST! SELLER";
+            btitle.style.fontSize = "23px";
+            btitle.style.width = "100%";
+            btitle.style.textAlign = "center";
+            btitle.style.letterSpacing = "2px";
+            btitle.style.lineHeight = "20px";
+            btitle.style.color = "#000";
+            btitle.margin = "0";
+
+            var bsubtitle = document.createElement("p");
+            var btextnode = document.createTextNode("베스트 셀러를 만나보세요");
+            bsubtitle.appendChild(btextnode);
+            btitle.appendChild(bsubtitle);
+            bsubtitle.style.color = "#666";
+            bsubtitle.style.fontSize = "17px";
+            bsubtitle.style.margin = "0 0 8px 0";
+            bsubtitle.style.textAlign = "center";
+            bsubtitle.style.lineHeight = "50px";
+            bsubtitle.style.width = "100%";
+
+            var barticle = document.getElementsByTagName("article")[0];
+            barticle.style.width = "1270px";
+            barticle.style.height = "1000px";
+            barticle.style.textAlign = "center";
+            barticle.style.margin = "0 auto";
+
+            var boxb = document.getElementsByClassName('box');
+
+            for (var i = 0; i < boxb.length; i++) {
+                boxb[i].boxSizing = "border-box";
+                boxb[i].style.width = "300px";
+                boxb[i].style.height = "400px";
+                boxb[i].style.margin = "0 2px 60px";
+                boxb[i].style.display = "inline-block";
+            }
+
+            // Only 온라인 상품
+            var otitle = document.getElementById("otitle")
+            otitle.innerHTML = "ONLY! ON";
+            otitle.style.fontSize = "23px";
+            otitle.style.width = "100%";
+            otitle.style.textAlign = "center";
+            otitle.style.letterSpacing = "2px";
+            otitle.style.lineHeight = "20px";
+            otitle.style.color = "#000";
+            otitle.margin = "0";
+
+            var osubtitle = document.createElement("p");
+            var otextnode = document.createTextNode("오직 온라인에서만 만나보세요");
+            osubtitle.appendChild(otextnode);
+            otitle.appendChild(osubtitle);
+            osubtitle.style.color = "#666";
+            osubtitle.style.fontSize = "17px";
+            osubtitle.style.margin = "0";
+            osubtitle.style.textAlign = "center";
+            osubtitle.style.lineHeight = "50px";
+            osubtitle.style.width = "100%";
+
+            var oarticle = document.getElementsByTagName("article")[1];
+            oarticle.style.width = "1270px";
+            oarticle.style.height = "530px";
+            oarticle.style.textAlign = "center";
+            oarticle.style.margin = "0 auto";
+
+            var boxo = document.getElementsByClassName('obox');
+
+            for (var i = 0; i < boxo.length; i++) {
+                boxo[i].boxSizing = "border-box";
+                boxo[i].style.width = "230px";
+                boxo[i].style.height = "400px";
+                boxo[i].style.margin = "0 2px 60px";
+                boxo[i].style.display = "inline-block";
+            }
+
+            // 신상품
+            var ntitle = document.getElementById("ntitle")
+            ntitle.innerHTML = "NEW! ARRIVALS";
+            ntitle.style.fontSize = "23px";
+            ntitle.style.width = "100%";
+            ntitle.style.textAlign = "center";
+            ntitle.style.letterSpacing = "2px";
+            ntitle.style.lineHeight = "20px";
+            ntitle.style.color = "#000";
+            ntitle.margin = "0";
+
+            var nsubtitle = document.createElement("p");
+            var ntextnode = document.createTextNode("언제나 새로운 신상품");
+            nsubtitle.appendChild(ntextnode);
+            ntitle.appendChild(nsubtitle);
+            nsubtitle.style.color = "#666";
+            nsubtitle.style.fontSize = "17px";
+            nsubtitle.style.margin = "0";
+            nsubtitle.style.textAlign = "center";
+            nsubtitle.style.lineHeight = "50px";
+            nsubtitle.style.width = "100%";
+
+            var narticle = document.getElementsByTagName("article")[2];
+            narticle.style.width = "1270px";
+            narticle.style.height = "1000px";
+            narticle.style.textAlign = "center";
+            narticle.style.margin = "0 auto";
+
+            var boxn = document.getElementsByClassName('nbox');
+
+            for (var i = 0; i < boxn.length; i++) {
+                boxn[i].boxSizing = "border-box";
+                boxn[i].style.width = "300px";
+                boxn[i].style.height = "400px";
+                boxn[i].style.margin = "0 2px 60px";
+                boxn[i].style.display = "inline-block";
+            }
+        }
+        // slider
+
+        function prev() {
+            $('.slide li:last').prependTo('.slide');
+            $('.slide').css('margin-left', -1920);
+            $('.slide').stop().animate({ marginLeft: 0 }, 800);
+        }
+
+        function next() {
+            $('.slide').stop().animate({ marginLeft: -1920 }, function () {
+                $('.slide li:first').appendTo('.slide');
+                $('.slide').css({ marginLeft: 0 });
+            });
+        }
+
+        function slide() {
+            $('.slide').stop().animate({ marginLeft: -1920 }, function () {
+                $('.slide li:first').appendTo('.slide');
+                $('.slide').css({ marginLeft: 0 });
+            });
+        }
+
+        setInterval(slide, 3000);
+
+        $('.prev').click(function () {
+            prev();
+        });
+
+        $('.next').click(function () {
+            next();
+        });
+    </script>
+
+    <footer>
+        <div id="fbox">
+            <div id="fibox">
+                <img src="img/logo2.gif" alt="logo2">
+
+                <ul>
+                    <li>회사소개</li>
+                    <li>이용약관</li>
+                    <li>개인정보처리방침</li>
+                    <li>이용안내</li>
+                </ul>
+
+                <h3>쇼핑몰 기본정보</h3>
+                <p><b>상호명</b> 위셀(wesell)
+                    <b>대표자명</b> 최대웅, 윤미래<br>
+                    <b>사업장 주소</b> 10044 경기 김포시 대곶면 대명항로117번길 110-75 1층
+                    <b>대표 전화</b> 07088662222<br>
+                    <b>사업자 등록번호</b> 191-09-01725
+                    <b>통신판매업 신고번호</b> 2022-경기김포-3150 [사업자정보확인]<br>
+                    <b>개인정보보호책임자</b> 최대웅
+                </p>
+            </div>
+
+            <div id="fpabox">
+                <h3>결제정보</h3>
+                <p><b>무통장 계좌정보</b><br>
+                    은행 0000-000-00000 예금주</p>
+            </div>
+
+            <div id="fpbox">
+                <h3>고객센터 정보</h3>
+                <p><b>상담/주문 전화</b> 010-4406-7766<br>
+                    <b>상담/주문 이메일</b><br>
+                    cdw1022@naver.com<br>
+                    <b>CS운영시간</b><br>
+                    MON-FRI AM 10:00 ~ PM 05:00<br>
+                    SAT/SUN/HOLIDAY OFF
+                </p>
+            </div>
+
+        </div>
+
+        <div id="copybox">
+            <p>Copyright © 왓위셀. All Rights Reserved. Hosting by Cafe24 Corp.</p>
+
+            <ul>
+                <li>SNS</li>
+                <li><img src="img/sns1.webp" alt="sicon1"></li>
+                <li><img src="img/sns2.webp" alt="sicon2"></li>
+                <li><img src="img/sns3.webp" alt="sicon3"></li>
+                <li><img src="img/sns4.webp" alt="sicon4"></li>
+                <li><img src="img/sns5.webp" alt="sicon5"></li>
+                <li><img src="img/sns6.webp" alt="sicon6"></li>
+
+            </ul>
+        </div>
+    </footer>
+    <!--footer 끝-->
+</body>
+
+</html>
+
+</body>
+
+</html>
